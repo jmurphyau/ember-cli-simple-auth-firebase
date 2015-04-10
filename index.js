@@ -2,7 +2,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-simple-auth-firebase'
+  name: 'ember-cli-simple-auth-firebase',
 
   included: function(app) {
     this._super.included(app);

@@ -10,8 +10,7 @@ module.exports = {
   afterInstall: function() {
     return this.addBowerPackagesToProject([
     	{ name: 'ember-simple-auth' }, 
-    	{ name: 'firebase' }, 
-    	{ name: 'firebase-es6-shim' }
+    	{ name: 'firebase' }
 	]);
   }
 }
